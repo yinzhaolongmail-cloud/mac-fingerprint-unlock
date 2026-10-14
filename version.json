@@ -3,5 +3,5 @@
   "build": 2,
   "repo": "yinzhaolongmail-cloud/mac-fingerprint-unlock",
   "notes": "首个版本：指纹解锁完整链路、系统设置风格界面",
-  "downloadURL": "https://github.com/yinzhaolongmail-cloud/mac-fingerprint-unlock/releases/latest"
+  "downloadURL": "https://gcore.jsdelivr.net/gh/yinzhaolongmail-cloud/mac-fingerprint-unlock@main/MacFingerprintUnlock-1.0.0.zip"
 }
