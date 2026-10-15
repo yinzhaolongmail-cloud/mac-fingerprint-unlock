@@ -1,7 +1,7 @@
 {
-  "version": "1.0.1",
-  "build": 3,
+  "version": "1.1.1",
+  "build": 5,
   "repo": "yinzhaolongmail-cloud/mac-fingerprint-unlock",
-  "notes": "关于页精简：移除更新源显示",
-  "downloadURL": "https://gcore.jsdelivr.net/gh/yinzhaolongmail-cloud/mac-fingerprint-unlock@main/MacFingerprintUnlock-1.0.1.zip"
+  "notes": "新增「指纹识别弹窗」开关（关闭后不弹浮窗、指纹验证成功仍自动输入密码）；钥匙串授权等系统安全弹窗盖不住时改为不弹浮窗",
+  "downloadURL": "https://gcore.jsdelivr.net/gh/yinzhaolongmail-cloud/mac-fingerprint-unlock@main/MacFingerprintUnlock-1.1.1.zip"
 }
