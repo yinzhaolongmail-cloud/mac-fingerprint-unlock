@@ -1,7 +1,7 @@
 {
-  "version": "3.16.4",
-  "size": 669920,
-  "sha256": "12b8771ad6354cebaa10e2900a0eec0918c9da42d4fbcc54111dc9e349de835a",
-  "url": "https://gcore.jsdelivr.net/gh/yinzhaolongmail-cloud/mac-fingerprint-unlock@main/firmware-releases/v3.16.4/MacFingerprintUnlock.ino.bin",
-  "notes": "修复版（v3.16.4）：指纹管理页在 OTA/USB 重启后偶发「读取指纹列表失败：指纹模块读取索引表失败」。索引表读取实测约 1.5 秒，原超时 1500ms 贴边；现放宽到 2500ms，并在每次读取前复位应答解析状态，失败重试不再错位。其余行为与 3.16.3 一致（OTA 特征仍需加密链路）。"
+  "version": "1.0.0",
+  "size": 671904,
+  "sha256": "f1283f100f0b5b6ce2f2879f477cd801d6bd77b783dadeedaaa6a86ba91ebafb",
+  "url": "https://gcore.jsdelivr.net/gh/yinzhaolongmail-cloud/mac-fingerprint-unlock@main/firmware-releases/v1.0.0/MacFingerprintUnlock.ino.bin",
+  "notes": "正式版 1.0.0：广播名统一 QingWen；包含索引表读取超时修复、启动模块复住、DELETE/CLEAR 去阻塞与断链立即广播。OTA 特征仍需加密链路。"
 }
