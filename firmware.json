@@ -1,0 +1,7 @@
+{
+  "version": "3.16.3",
+  "size": 669888,
+  "sha256": "a07d39a756ee25db2977186110ec3a6fbdcb6dc5d6bff4a7db76b1a438705509",
+  "url": "https://gcore.jsdelivr.net/gh/yinzhaolongmail-cloud/mac-fingerprint-unlock@main/firmware-releases/v3.16.3/MacFingerprintUnlock.ino.bin",
+  "notes": "安全修复版（v3.16.3）：OTA 控制/数据特征已要求加密链路（需与 Mac 配对），其他行为与 3.16.2 一致。首次从无 OTA 的旧固件升级仍需 USB 烧录本版一次。"
+}
