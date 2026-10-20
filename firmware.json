@@ -1,7 +1,7 @@
 {
-  "version": "3.16.3",
-  "size": 669888,
-  "sha256": "a07d39a756ee25db2977186110ec3a6fbdcb6dc5d6bff4a7db76b1a438705509",
-  "url": "https://gcore.jsdelivr.net/gh/yinzhaolongmail-cloud/mac-fingerprint-unlock@main/firmware-releases/v3.16.3/MacFingerprintUnlock.ino.bin",
-  "notes": "安全修复版（v3.16.3）：OTA 控制/数据特征已要求加密链路（需与 Mac 配对），其他行为与 3.16.2 一致。首次从无 OTA 的旧固件升级仍需 USB 烧录本版一次。"
+  "version": "3.16.4",
+  "size": 669920,
+  "sha256": "12b8771ad6354cebaa10e2900a0eec0918c9da42d4fbcc54111dc9e349de835a",
+  "url": "https://gcore.jsdelivr.net/gh/yinzhaolongmail-cloud/mac-fingerprint-unlock@main/firmware-releases/v3.16.4/MacFingerprintUnlock.ino.bin",
+  "notes": "修复版（v3.16.4）：指纹管理页在 OTA/USB 重启后偶发「读取指纹列表失败：指纹模块读取索引表失败」。索引表读取实测约 1.5 秒，原超时 1500ms 贴边；现放宽到 2500ms，并在每次读取前复位应答解析状态，失败重试不再错位。其余行为与 3.16.3 一致（OTA 特征仍需加密链路）。"
 }
